@@ -41,6 +41,23 @@ android {
 
 dependencies {
 
+    // Location
+    implementation(libs.play.services.maps)
+    implementation(libs.maps.compose)
+
+    //Navigation
+    implementation(libs.androidx.navigation.compose)
+
+    //ViewModel
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    //Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+
+    //Location
+    implementation(libs.play.services.location)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
